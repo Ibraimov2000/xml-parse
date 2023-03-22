@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 import java.io.IOException;
 
 @RestController
-public class XmlController {
+public class DataController {
 
     private final DataService dataService;
 
     @Autowired
-    public XmlController(DataService dataService) {
+    public DataController(DataService dataService) {
         this.dataService = dataService;
     }
 
